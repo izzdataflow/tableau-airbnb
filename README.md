@@ -20,28 +20,28 @@
 ### Step 1 — Open Tableau & Load Dataset
 > Launch Tableau Desktop and connect to the Airbnb dataset source.
 
-![Step 1 – Open Tableau and load dataset](images/step1_load_dataset.png)
+![Step 1 – Open Tableau and load dataset](assets/images/1.load_data_tableau.png)
 
 ---
 
 ### Step 2 — Open Listings Table
 > Navigate to the **Listings** table. Tableau auto-detects fields and updates the schema preview.
 
-![Step 2 – Listings table auto-update](images/step2_listings_table.png)
+![Step 2 – Listings table auto-update](assets/images/2.open_listings_table.png)
 
 ---
 
 ### Step 3 — Join Calendar Table with Listings
 > Add the **Calendar** table and perform an **Inner Join** on `id` to link pricing dates with listing details.
 
-![Step 3 – Inner join on id](images/step3_inner_join.png)
+![Step 3 – Inner join on id](assets/images/3.inner_join_tables.png)
 
 ---
 
 ### Step 4 — Open Worksheet & Filter Zipcodes
 > Open a new worksheet. Drag **Zipcode** to Columns and apply a filter to **exclude null** values.
 
-![Step 4 – Zipcode to columns, exclude null](images/step4_zipcode_filter.png)
+![Step 4 – Zipcode to columns, exclude null](assets/images/4.zipcode_to_column.png)
 
 ---
 
@@ -50,7 +50,7 @@
 
 **Output:** `Price by Zipcode` bar chart
 
-![Step 5 – Price by Zipcode bar chart](images/step5_price_by_zipcode.png)
+![Step 5 – Price by Zipcode bar chart](assets/images/5.price_by_zipcode.png)
 
 ---
 
@@ -59,7 +59,7 @@
 
 **Output:** `Price per Zipcode` choropleth map
 
-![Step 6 – Price per Zipcode map](images/step6_price_map.png)
+![Step 6 – Price per Zipcode map](assets/images/6.price_per_zipcode.png)
 
 ---
 
@@ -68,7 +68,7 @@
 
 **Output:** `Revenue for Year` line chart
 
-![Step 7 – Revenue for Year line chart](images/step7_revenue_year.png)
+![Step 7 – Revenue for Year line chart](assets/images/7.revenue_for_year.png)
 
 ---
 
@@ -77,7 +77,7 @@
 
 **Output:** `Avg Price per Bedrooms` bar chart
 
-![Step 8 – Avg Price per Bedrooms](images/step8_avg_price_bedrooms.png)
+![Step 8 – Avg Price per Bedrooms](images/assets/images/8.avg_price_per_bedrooms.png)
 
 ---
 
@@ -86,7 +86,7 @@
 
 **Output:** `Distinct Count of Bedroom Listings` table
 
-![Step 9 – Distinct Count of Bedroom Listings](images/step9_bedroom_count.png)
+![Step 9 – Distinct Count of Bedroom Listings](assets/images/9.distinc_count_bedrooms_listing.png)
 
 ---
 
@@ -95,7 +95,7 @@
 
 **Output:** Final interactive dashboard
 
-![Step 10 – Final Dashboard](images/step10_dashboard.png)
+![Step 10 – Final Dashboard](assets/images/10.tableau_dashboard.png)
 
 ---
 
